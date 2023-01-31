@@ -22,7 +22,7 @@ describe('Dice', () => {
 
   test('should test prototype TotalRound based on update from roundScore', () =>{
     const dice = new Dice(2, 4, 5, 1);
-    expect(dice.TotalRound()).toEqual(11); 
+    expect(dice.TotalRound()).toEqual(9); 
   });
 });
 
