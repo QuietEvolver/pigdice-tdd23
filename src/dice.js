@@ -18,3 +18,8 @@ Dice.prototype.PlayRound = function () {
   }
   return this.roundScore;
 };
+
+Dice.prototype.TotalRound = function () {
+    //this.totalScore += this.roundScore;
+    //this.roundScore = 0;
+}
