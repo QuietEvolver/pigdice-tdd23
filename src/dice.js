@@ -4,3 +4,7 @@ export default function Dice(number, totalScore, roundScore, id) {
   this.roundScore = roundScore;
   this.id = id;
 };
+
+Dice.prototype.Roll = function() {
+
+}
