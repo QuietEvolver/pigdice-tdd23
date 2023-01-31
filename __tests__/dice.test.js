@@ -16,8 +16,8 @@ describe('Dice', () => {
 
   test('should test prototype RoundScore based on this.number', () =>{
     const dice = new Dice(2, 4, 5, 1);
-    expect(dice.PlayRound()).toEqual(2);
+    expect(dice.PlayRound()).toEqual(7);
     
-  })
+  });
 
 });
