@@ -11,5 +11,10 @@ Dice.prototype.Roll = function() {
 };
 
 Dice.prototype.PlayRound = function () {
-
+  if (this.number !== 1) {
+    this.roundScore += this.number;
+  } if (this.number === 1) {
+    this.roundScore = 0;
+  }
+  return this.roundScore;
 };
