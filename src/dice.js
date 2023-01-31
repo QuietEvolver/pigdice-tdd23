@@ -24,3 +24,7 @@ Dice.prototype.TotalRound = function () {
   this.roundScore = 0;
   return this.totalScore;
 }
+
+Dice.prototype.DetermineWinner = function () {
+  
+}
