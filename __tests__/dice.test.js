@@ -31,7 +31,7 @@ describe('Dice', () => {
 
   test('should test DetermineWinner based on winning totalScore', () =>{
     const dice = new Dice (2, 104, 5, 1);
-    expect(dice.DetermineWinner()).toEqual(true)
+    expect(dice.DetermineWinner()).toEqual(104);
   })
 });
 
