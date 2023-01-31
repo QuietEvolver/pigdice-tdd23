@@ -26,5 +26,8 @@ Dice.prototype.TotalRound = function () {
 }
 
 Dice.prototype.DetermineWinner = function () {
-  
+  if(this.totalScore >= 100){
+    return this.totalScore;
+  }
+  return false;
 }
