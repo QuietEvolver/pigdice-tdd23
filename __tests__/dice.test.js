@@ -28,6 +28,11 @@ describe('Dice', () => {
     const dice = new Dice(2, 4, 5, 1);
     expect(dice.DetermineWinner()).toEqual(false);
   });
+
+  test('should test DetermineWinner based on winning totalScore', () =>{
+    const dice = new Dice (2, 104, 5, 1);
+    expect(dice.DetermineWinner()).toEqual(true)
+  })
 });
 
   
