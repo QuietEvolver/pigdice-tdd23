@@ -19,12 +19,15 @@ describe('Dice', () => {
     expect(dice.PlayRound()).toEqual(7); 
   });
 
-
   test('should test prototype TotalRound based on update from roundScore', () =>{
     const dice = new Dice(2, 4, 5, 1);
     expect(dice.TotalRound()).toEqual(9); 
   });
+
+  test('should test DetermineWinner based on totalScore.', () =>{
+    const dice = new Dice(2, 4, 5, 1);
+    expect(dice.DetermineWinner()).toEqual(4);
+  });
 });
 
-
-
+  
